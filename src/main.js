@@ -13,7 +13,6 @@ window.addEventListener(
   () => {
     if (riveInstance) {
       riveInstance.resizeDrawingSurfaceToCanvas();
-      // also update orientation property on resize
       updateOrientationBinding();
     }
   },
